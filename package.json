@@ -1,26 +1,33 @@
 {
-  "name": "ssa-parse",
-  "version": "0.0.1",
-  "description": "SSA Copy/Paste Parser from SSA Tools",
-  "homepage": "https://ssa.tools/",
-  "bugs": {
-    "url": "https://github.com/Gregable/social-security-tools/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Gregable/social-security-tools/"
-  },
-  "main": "ssa.js",
-  "scripts": {
-    "test": "node tests/jasmine-run.mjs"
-  },
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "jasmine": "^3.5.0",
-    "glob": "^7.1.6",
-    "node": "^12.18.2"
-  },
-  "type": "module",
-  "dependencies": {}
-}
+    "name": "ssa-parse",
+    "version": "0.0.1",
+    "description": "SSA Copy/Paste Parser from SSA Tools",
+    "homepage": "https://ssa.tools/",
+    "bugs": {
+      "url": "https://github.com/cmcnulty/ssi-parse-tool/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cmcnulty/ssi-parse-tool.git"
+    },
+    "main": "ssa.js",
+    "scripts": {
+      "test": "node tests/jasmine-run.mjs"
+    },
+    "author": "Charles McNulty",
+    "license": "MIT",
+    "devDependencies": {
+      "jasmine": "^3.5.0",
+      "glob": "^7.1.6",
+      "node": "^12.18.2"
+    },
+    "type": "module",
+    "dependencies": {},
+    "directories": {
+      "test": "tests"
+    },
+    "keywords": [
+      "social",
+      "security"
+    ]
+  }
