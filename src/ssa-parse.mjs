@@ -1,5 +1,4 @@
-import * as constants from './constants.mjs';
-import { EarningRecord } from './recipient.mjs';
+import { EarningRecord } from './earning-record.mjs';
 
 /**
  * Given a string which we know to be a number containing possibly a leading
@@ -86,7 +85,7 @@ function isYearString(maybeYearStr) {
   // until the following year. However, some users would like to manufacture
   // data to paste into the tool, so we accept any year up to 70y in the future.
   // See https://github.com/Gregable/social-security-tools/issues/130
-  if (maybeYear > constants.CURRENT_YEAR + 70)
+  if (maybeYear > new Date().getFullYear() + 70)
     return false;
 
   return true;
