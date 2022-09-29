@@ -1,6 +1,6 @@
 {
     "name": "ssa-parse",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "SSA Copy/Paste Parser from SSA Tools",
     "homepage": "https://ssa.tools/",
     "bugs": {
